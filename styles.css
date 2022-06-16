@@ -87,7 +87,9 @@ input[type="checkbox"]{
 .home .icons{
     display: flex;
     flex-direction: column;
-    margin-right: 40px;   
+    margin-right: 40px;
+    margin-left: 10px;       
+    margin-top: 5rem; 
 }
 .home .icons a{
     color:#ff7606;
@@ -101,7 +103,7 @@ input[type="checkbox"]{
 }
 .bane {
     position: relative;
-    top: -100px;
+    top: -200px;
     width:  100%;
     height: 100vh;
     text-align: center;
@@ -210,7 +212,6 @@ span{
 }
 .Apropo-text p{
     color: #ff7606;
-    /* font-size: 20px; */
     letter-spacing: 1px;
     margin-bottom: 45px;
     line-height: 25px;
@@ -509,7 +510,7 @@ footer{
 
 }
 .content span{
-    font-size: 20px;
+    font-size: 15px;
 }
 .main-content{
     display: flex;
@@ -561,15 +562,19 @@ footer{
     #toggler{
         display:block;
     }
+    #toggler .icon-bars{
+        margin-left: 20px;
+    }
     nav .logo{
         text-align: center;
         line-height: 10px;
+        margin-left: 80px;
     }
     nav .menu {
         position: fixed;
         top: 70px;
         left: -100%;  
-        width: 100%; 
+        width: 40%; 
         text-align: left;
         transition: 1s ease-in-out; 
         display: none; 
@@ -588,13 +593,17 @@ footer{
         width:  100%;
         height: 100vh;
         text-align: center;
+        margin-top: -3rem;
     }
     .Apro {
         display:block;
         padding: 1rem;
     } 
-    .Apropos img{
-        border-radius:400px;     
+    .Apropos img {
+        height: 150px;
+        border-radius:50%; 
+        width: 150px;
+        margin-left: 100px;
     }
     .competences{
         grid-template-columns: repeat(2, 1fr);
@@ -606,12 +615,14 @@ footer{
     }
     .contact{
         width: 100%;
+        padding: 50px;
     }
     .contact-section{
         flex-direction: column;
     } 
     .contact-info .contact-form{
         margin: 30px 50px;
+        margin-bottom: 40px;
     }
     .contact-form h2{
         font-size: 30px;
