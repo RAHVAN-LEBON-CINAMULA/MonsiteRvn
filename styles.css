@@ -574,8 +574,8 @@ footer{
         position: fixed;
         top: 70px;
         left: -100%;  
-        width: 60%; 
-        text-align: left;
+        width: 100%; 
+        text-align: center;
         transition: 1s ease-in-out; 
         display: none; 
         background-color: #ff7606;   
@@ -586,6 +586,10 @@ footer{
     input:checked ~ .menu {
         left: 0;
         display: block;
+    }
+    .icons{        
+        margin-left: -20px;       
+        margin-top: 5rem; 
     }
     .bane {
         position: relative;
