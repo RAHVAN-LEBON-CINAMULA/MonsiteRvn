@@ -563,7 +563,7 @@ footer{
         display:block;
     }
     #toggler .icon-bars{
-        margin-left: 10px;
+        margin-left: 2px;
     }
     nav .logo{
         text-align: center;
@@ -574,7 +574,7 @@ footer{
         position: fixed;
         top: 70px;
         left: -100%;  
-        width: 40%; 
+        width: 60%; 
         text-align: left;
         transition: 1s ease-in-out; 
         display: none; 
